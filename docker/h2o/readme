@@ -1,0 +1,17 @@
+https://h2o-release.s3.amazonaws.com/h2o/rel-turing/1/docs-website/h2o-docs/docker.html
+
+cd dl_bootcamp/h2o_docker
+docker build -t "h2o_docker:v1" .
+
+docker run -ti -p 54321:54321 h2o_docker:v1 /bin/bash
+
+cd /opt
+java -Xmx1g -jar h2o.jar
+
+boot2docker ip
+192.168.59.103
+
+´´´{r}
+library(h2o)
+dockerH2O <- h2o.init(ip = "192.168.59.103", port = 54321)
+```
