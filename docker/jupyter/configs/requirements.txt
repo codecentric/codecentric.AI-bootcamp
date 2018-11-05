@@ -1,0 +1,17 @@
+scikit-learn
+scipy
+sympy
+nose
+jupyterlab
+matplotlib
+pandas
+numpy
+pydot
+requests
+tabulate
+colorama>=0.3.8
+future
+h2o
+opencv-python
+imutils
+Pillow
