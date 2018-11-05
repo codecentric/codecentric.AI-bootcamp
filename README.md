@@ -7,4 +7,4 @@ Clone this repository.
 
 docker pull shiringlander/codecentricai-docker
 
-docker run -p 8888:8888 -v notebooks:/notebooks shiringlander/r-keras
+docker run -p 8888:8888 -v notebooks:/notebooks shiringlander/codecentricai-docker
