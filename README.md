@@ -3,9 +3,12 @@ Kurs Inhalte für das codecentric.AI Bootcamp.
 
 ## Work with Docker
 
-docker pull codecentric/codecentric.AI-docker
+git clone https://github.com/codecentric/codecentric.AI-docker.git
+cd codecentric.AI-docker
 
-- clone https://github.com/codecentric/codecentric.AI-bootcamp
-- change directory to codecentric.AI-bootcamp
+docker build -t codecentric.ai-docker .
 
-docker run -p 8888:8888 -v notebooks:/notebooks codecentric/codecentric.AI-docker
+git clone https://github.com/codecentric/codecentric.AI-bootcamp
+cd codecentric.AI-bootcamp
+
+docker run -p 8888:8888 -v notebooks:/notebooks codecentric.ai-docker
