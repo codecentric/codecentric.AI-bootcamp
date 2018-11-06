@@ -12,7 +12,7 @@ Dann kannst du den Jupyter Server wie folgt starten:
 # Docker file aus git holen
 git clone https://github.com/codecentric/codecentric.AI-docker.git && cd codecentric.AI-docker
 
-# Docker Contaier mit Jupyter Server und benötigten Python Libraries bauen
+# Docker Container mit Jupyter Server und benötigten Python Libraries bauen
 docker build -t codecentric.ai-docker .
 
 # Übungsaufgaben aus git clonen
