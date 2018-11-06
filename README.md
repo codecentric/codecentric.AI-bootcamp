@@ -28,3 +28,9 @@ dann hast du den notebooks Pfad nicht richtig in den Container gemountet. Achte 
 beschrieben in den Ordnern ausführst.
 
 Bei Problemen, kannst Du in unserer Slack Community nach Hilfe fragen https://join.slack.com/t/cc-ai-bootcamp/signup
+
+
+## Übungsaufgaben auf Amazon Web Services (AWS) starten
+
+Um die Deep Learning Aufgaben auszuführen, brauchst Du einen Rechner mit einer geeigneten Grafikkarte. In unserem Kurs
+zeigen wir Dir, wie du einen AWS EC2 Instanz einrichten kannst, um dort unsere Docker Umgebung laufen lassen zu können.
