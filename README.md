@@ -8,6 +8,34 @@ Dann kannst du den Jupyter Server wie folgt starten:
 
 ## codecentric.AI Bootcamp in Docker starten
 
+# codecentricAI-docker
+Dockerfile for codecentricAI Bootcamp environment
+
+## Run from Dockerhub
+
+### Jupyterlab starten
+
+```bash
+git clone https://github.com/codecentric/codecentric.AI-bootcamp
+cd codecentric.AI-bootcamp
+
+docker pull codecentric/codecentric.ai-docker
+```
+
+### Run on Mac & Linux
+
+```bash
+docker run -p 8888:8888 -v $(pwd)/notebooks:/notebooks codecentric/codecentric.ai-docker
+```
+
+### Run on Windows
+
+```bash
+docker run -p 8888:8888 -v $(pwd)/notebooks:/notebooks codecentric/codecentric.ai-docker
+```
+
+## Build locally
+
 ```bash
 # Docker file aus git holen
 git clone https://github.com/codecentric/codecentric.AI-docker.git && cd codecentric.AI-docker
@@ -17,7 +45,7 @@ docker build -t codecentric.ai-docker .
 
 # Übungsaufgaben aus git clonen
 cd ..
-git clone https://github.com/codecentric/codecentric.AI-bootcamp && cd codecentric.AI-bootcamp
+git clone https://github.com/codecentric/codecentric.AI-bootcamp.git && cd codecentric.AI-bootcamp
 
 # Jupyter Server starten und Übungsaufgaben in Container mounten
 docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks codecentric.ai-docker
