@@ -1,6 +1,6 @@
 # codecentric.AI Bootcamp
 
-Hier findest Du die Kursinhalte zum codecentric.AI Bootcamp (https://github.com/codecentric/codecentric.AI-bootcamp).
+Hier findest Du die Kursinhalte zum codecentric.AI Bootcamp (https://bootcamp.codecentric.ai).
 Um die Übungsaufgaben auszuführen, brauchst du eineEntwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine
 genaue Anleitung, wie man dies am besten einrichtet.
 
