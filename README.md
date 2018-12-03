@@ -1,19 +1,13 @@
 # codecentric.AI Bootcamp
 
-Hier findest Du die Kursinhalte zum codecentric.AI Bootcamp. Um die Übungsaufgaben auszuführen, brauchst du eine
-Entwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine genaue Anleitung, wie man dies am besten einrichtet.
+Hier findest Du die Kursinhalte zum codecentric.AI Bootcamp (https://github.com/codecentric/codecentric.AI-bootcamp).
+Um die Übungsaufgaben auszuführen, brauchst du eineEntwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine
+genaue Anleitung, wie man dies am besten einrichtet.
 
 Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du Docker (https://docs.docker.com/install/).
 Dann kannst du den Jupyter Server wie folgt starten:
 
 ## codecentric.AI Bootcamp in Docker starten
-
-# codecentricAI-docker
-Dockerfile for codecentricAI Bootcamp environment
-
-## Run from Dockerhub
-
-### Jupyterlab starten
 
 ```bash
 git clone https://github.com/codecentric/codecentric.AI-bootcamp
