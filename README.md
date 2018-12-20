@@ -19,13 +19,13 @@ docker pull codecentric/codecentric.ai-docker
 ### Run on Mac & Linux
 
 ```bash
-docker run -p 8888:8888 -v $(pwd)/notebooks:/notebooks codecentric/codecentric.ai-docker
+./run.sh
 ```
 
 ### Run on Windows
 
 ```bash
-docker run -p 8888:8888 -v $(pwd)/notebooks:/notebooks codecentric/codecentric.ai-docker
+docker run -p 8888:8888 -v %cd%/data:/data -v %cd%/notebooks:/notebooks codecentric/codecentric.ai-docker
 ```
 
 ## Build locally
@@ -42,7 +42,7 @@ cd ..
 git clone https://github.com/codecentric/codecentric.AI-bootcamp.git && cd codecentric.AI-bootcamp
 
 # Jupyter Server starten und Übungsaufgaben in Container mounten
-docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks codecentric.ai-docker
+docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:/data codecentric.ai-docker
 ```
 
 Teste deine Installation indem du `http://localhost:8888/` in deinem Browser aufrufst. Wenn du keine Übungsaufgaben siehst,
