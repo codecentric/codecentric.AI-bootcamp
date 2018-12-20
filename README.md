@@ -42,7 +42,7 @@ cd ..
 git clone https://github.com/codecentric/codecentric.AI-bootcamp.git && cd codecentric.AI-bootcamp
 
 # Jupyter Server starten und Übungsaufgaben in Container mounten
-./run.sh
+docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:/data codecentric.ai-docker
 ```
 
 Teste deine Installation indem du `http://localhost:8888/` in deinem Browser aufrufst. Wenn du keine Übungsaufgaben siehst,
