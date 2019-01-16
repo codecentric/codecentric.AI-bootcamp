@@ -9,26 +9,42 @@ Dann kannst du den Jupyter Server wie folgt starten:
 
 ## codecentric.AI Bootcamp in Docker starten
 
+Die Notebooks findest du in diesem Github Repository, das du wie folgt clonen (also auf deinen Rechner kopieren) kannst:
+
 ```bash
 git clone https://github.com/codecentric/codecentric.AI-bootcamp
 cd codecentric.AI-bootcamp
+```
 
+Das Dockerfile zu diesem Kurs liegt auf der Docker-Cloud. Du kannst es ganz einfach herunterladen und bauen mit:
+
+```bash
 docker pull codecentric/codecentric.ai-docker
 ```
 
 ### Run on Mac & Linux
 
+Den Jupyter Server starten und die Übungsaufgaben und Daten in den Container mounten kannst du mit Mac und Linux so:
+
 ```bash
+# Jupyter Server starten und Übungsaufgaben in Container mounten
+docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:/data codecentric.ai-docker
+
+# Daten laden
 ./run.sh
 ```
 
 ### Run on Windows
+
+Den Jupyter Server starten und die Übungsaufgaben und Daten in den Container mounten kannst du mit Windows so (falls er den Pfad mit `%cd%` nicht erkennt, musst du hier den absoluten Pfadnamen angeben):
 
 ```bash
 docker run -p 8888:8888 -v %cd%/data:/data -v %cd%/notebooks:/notebooks codecentric/codecentric.ai-docker
 ```
 
 ## Build locally
+
+Alternativ kannst du das Dockerimage auch lokal bei dir bauen (wenn du zum Beispiel etwas hinzufügen oder verändern möchtest).
 
 ```bash
 # Docker file aus git holen
@@ -38,7 +54,6 @@ git clone https://github.com/codecentric/codecentric.AI-docker.git && cd codecen
 docker build -t codecentric.ai-docker .
 
 # Übungsaufgaben aus git clonen
-cd ..
 git clone https://github.com/codecentric/codecentric.AI-bootcamp.git && cd codecentric.AI-bootcamp
 
 # Jupyter Server starten und Übungsaufgaben in Container mounten
