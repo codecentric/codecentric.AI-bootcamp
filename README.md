@@ -42,6 +42,15 @@ Den Jupyter Server starten und die Übungsaufgaben und Daten in den Container mo
 docker run -p 8888:8888 -v %cd%/data:/data -v %cd%/notebooks:/notebooks codecentric/codecentric.ai-docker
 ```
 
+## Jupyter Lab starten
+
+Teste deine Installation indem du `http://localhost:8888/` in deinem Browser aufrufst. Wenn du keine Übungsaufgaben siehst,
+dann hast du den notebooks Pfad nicht richtig in den Container gemountet. Achte darauf, dass du die Befehle genau wie oben
+beschrieben in den Ordnern ausführst.
+
+**Bei Problemen, kannst Du in unserer Slack Community nach Hilfe fragen https://join.slack.com/t/cc-ai-bootcamp/signup**
+
+
 ## Build locally
 
 Alternativ kannst du das Dockerimage auch lokal bei dir bauen (wenn du zum Beispiel etwas hinzufügen oder verändern möchtest).
@@ -59,13 +68,6 @@ git clone https://github.com/codecentric/codecentric.AI-bootcamp.git && cd codec
 # Jupyter Server starten und Übungsaufgaben in Container mounten
 docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:/data codecentric.ai-docker
 ```
-
-Teste deine Installation indem du `http://localhost:8888/` in deinem Browser aufrufst. Wenn du keine Übungsaufgaben siehst,
-dann hast du den notebooks Pfad nicht richtig in den Container gemountet. Achte darauf, dass du die Befehle genau wie oben
-beschrieben in den Ordnern ausführst.
-
-Bei Problemen, kannst Du in unserer Slack Community nach Hilfe fragen https://join.slack.com/t/cc-ai-bootcamp/signup
-
 
 ## Übungsaufgaben auf Amazon Web Services (AWS) starten
 
