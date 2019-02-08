@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (http://matplotlib.org/) -->
-<svg height="288pt" version="1.1" viewBox="-135 0 477 288" width="602pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="278pt" version="1.1" viewBox="-160 10 592 278" width="592pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -10,10 +10,10 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M -135 288 
-L 477 288 
-L 477 0 
-L -135 0 
+   <path d="M -160 288 
+L 472 288 
+L 472 10
+L -160 10 
 z
 " style="fill:#ffffff;"/>
   </g>
