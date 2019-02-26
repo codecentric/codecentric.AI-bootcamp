@@ -2,14 +2,10 @@
 
 In diesem Repository findest Du die Praxisübungen des codecentric.AI Bootcamps: https://bootcamp.codecentric.ai
 
-**Wenn du Hilfe benötigst, chatte mit uns in unserer [Slack Community.](https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkODg2YzIwYjdhZGI4YmU3YWNhMDc4NmIwZmFmMmJiN2JiODM1M2EyYTQxZGNhZjQwOGIwMTRlMDlhYzg1YTI)
-**
-
-
+Wenn du Hilfe benötigst, chatte mit uns in unserer [Slack Community](https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkODg2YzIwYjdhZGI4YmU3YWNhMDc4NmIwZmFmMmJiN2JiODM1M2EyYTQxZGNhZjQwOGIwMTRlMDlhYzg1YTI).
 
 ## Anleitung für den Praxisteil des Bootcamps
-Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben lokal ausführen.
-
+Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben ausführen.
 
 ### Voraussetzungen
 
@@ -26,7 +22,7 @@ git clone https://github.com/codecentric/codecentric.AI-bootcamp
 cd codecentric.AI-bootcamp
 ```
 
-2. Installiere das Docker-Image.
+2. Lade das Docker-Image herunter.
 
 ```bash
 docker pull codecentric/codecentric.ai-docker
@@ -37,10 +33,7 @@ docker pull codecentric/codecentric.ai-docker
   - **Auf Mac oder Linux:**
 
 ```bash
-# Jupyter Server starten und Übungsaufgaben in den Container mounten
-docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:/data codecentric.ai-docker
-
-# Aktuellen Stand der Datensätze laden
+# Server starten
 ./run.sh
 ```
   - **Auf Windows:**
@@ -50,7 +43,7 @@ docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:
 docker run -p 8888:8888 -v %cd%/data:/data -v %cd%/notebooks:/notebooks codecentric/codecentric.ai-docker
 ```
 
-Falls der Pfad mit `%cd%` nicht erkannt wird, verwende den absoluten Pfadnamen, zum Beispiel:
+Falls der Pfad mit `%cd%` nicht erkannt wird, verwende den absoluten Pfadnamen.
 
 4. Installation testen & loslegen
 
