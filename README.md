@@ -1,28 +1,37 @@
-# codecentric.AI Bootcamp
+## codecentric.AI Bootcamp
 
 Hier findest Du die Kursinhalte zum codecentric.AI Bootcamp (https://bootcamp.codecentric.ai).
-Um die Übungsaufgaben auszuführen, brauchst du eineEntwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine
+
+## Anleitung, um deine Übungsaufgaben lokal lösen zu können
+
+1. Setze eine Entwicklungsumgebung auf.
+Um die Übungsaufgaben auszuführen, brauchst du eine Entwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine
 genaue Anleitung, wie man dies am besten einrichtet.
 
+2. Installiere Git
+Git benötigst du, um daraufhin den Code aus unserem Repository klonen zu können: https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren
+
+3. Installiere Docker
 Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du Docker (https://docs.docker.com/install/).
-Dann kannst du den Jupyter Server wie folgt starten:
 
-## codecentric.AI Bootcamp in Docker starten
+(Führe folgende Befehle in der Kommandozeile aus)
 
-Die Notebooks findest du in diesem Github Repository, das du wie folgt clonen (also auf deinen Rechner kopieren) kannst:
+4. Klone den Code mit Übungsaufgaben auf deinen eigenen Rechner.
 
 ```bash
 git clone https://github.com/codecentric/codecentric.AI-bootcamp
 cd codecentric.AI-bootcamp
 ```
 
-Das Dockerfile zu diesem Kurs liegt auf der Docker-Cloud. Du kannst es ganz einfach herunterladen und bauen mit:
+5. Installiere das Docker-Image.
 
 ```bash
 docker pull codecentric/codecentric.ai-docker
 ```
 
-### Run on Mac & Linux
+6. Starte den Server auf deinem Rechner
+
+  - Auf Mac oder Linux
 
 Den Jupyter Server starten und die Übungsaufgaben und Daten in den Container mounten kannst du mit Mac und Linux so:
 
