@@ -1,10 +1,11 @@
 ## codecentric.AI Bootcamp
 
-Hier findest Du die Kursinhalte zum codecentric.AI Bootcamp (https://bootcamp.codecentric.ai).
+In diesem Repository findest Du die Praxisübungen des codecentric.AI Bootcamps: https://bootcamp.codecentric.ai
+
+**Wenn du Hilfe benötigst, chatte mit uns in unserer Slack Community: https://join.slack.com/t/cc-ai-bootcamp/signup**
 
 ## Anleitung für den Praxisteil des Bootcamps
 Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben lokal ausführen.
-**Wenn du Hilfe benötigst, schreib uns in unserer Slack Community an: https://join.slack.com/t/cc-ai-bootcamp/signup**
 
 1. Setze eine Entwicklungsumgebung auf.
 Um die Übungsaufgaben auszuführen, brauchst du eine Entwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine
@@ -40,9 +41,7 @@ docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:
 # Aktuellen Stand der Datensätze laden
 ./run.sh
 ```
-  - **Auf Windows:
-
-
+  - **Auf Windows:**
 
 ```bash
 # Jupyter Server starten und Übungsaufgaben in den Container mounten
@@ -55,12 +54,9 @@ Falls der Pfad mit `%cd%` nicht erkannt wird, verwende den absoluten Pfadnamen, 
 
 Rufe `http://localhost:8888/` in deinem Browser auf.
 
-Du siehst keine Übungsaufgaben? 
+Du siehst keine Übungsaufgaben?
 Vermutlich wurde nicht der richtige Pfad der Übungsaufgaben zum Container hinzugefügt. Achte darauf, dass du dich im Terminal (bzw. in der Shell) zuerst zum Ordner des Bootcamps wechselst, bevor du die Befehle ausführst.
 
-```
+## Übungsaufgaben in der Cloud ausführen
 
-## Übungsaufgaben auf Amazon Web Services (AWS) starten
-
-Um die Deep Learning Aufgaben auszuführen, brauchst Du einen Rechner mit einer geeigneten Grafikkarte. In unserem Kurs
-zeigen wir Dir, wie du einen AWS EC2 Instanz einrichten kannst, um dort unsere Docker Umgebung laufen lassen zu können.
+Für manche Übungsaufgaben empfiehlt es sich, geeignete Grafikkarte zu verwenden, um ein Training in überschaubarer Zeit abzuschließen. Falls die Grafikkarte deines Rechners dafür nicht ausreicht, kannst du die Übungsaufgaben in der Cloud ausführen. Wir verwenden hierfür Amazon Web Services (AWS). Im Kurs zeigen wir Dir, wie du einen AWS EC2 Instanz einrichten kannst, um dort unser Docker-Image einrichten zu können.
