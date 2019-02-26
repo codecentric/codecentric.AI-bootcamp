@@ -9,9 +9,9 @@ Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben ausführe
 
 ### Voraussetzungen
 
-- **Git** benötigst du, um daraufhin den Code aus unserem Repository klonen zu können: https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren
+- **Git**: Git benötigst du, um den Code aus unserem Repository klonen zu können: https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren
 
-- Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du **Docker**: https://docs.docker.com/install/
+- **Docker**: Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen, benötigst du Docker: https://docs.docker.com/install/
 
 ### Umgebung lokal aufsetzen
 
