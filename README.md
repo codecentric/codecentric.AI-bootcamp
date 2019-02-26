@@ -2,7 +2,8 @@
 
 In diesem Repository findest Du die Praxisübungen des codecentric.AI Bootcamps: https://bootcamp.codecentric.ai
 
-**Wenn du Hilfe benötigst, chatte mit uns in unserer Slack Community: https://join.slack.com/t/cc-ai-bootcamp/signup**
+**Wenn du Hilfe benötigst, chatte mit uns in unserer Slack Community:
+https://join.slack.com/t/cc-ai-bootcamp/signup**
 
 ## Anleitung für den Praxisteil des Bootcamps
 Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben lokal ausführen.
