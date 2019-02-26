@@ -15,8 +15,6 @@ Git benötigst du, um daraufhin den Code aus unserem Repository klonen zu könne
 3. Installiere Docker
 Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du Docker (https://docs.docker.com/install/).
 
-  (Führe folgende Befehle in der Kommandozeile aus)
-
 4. Klone den Code mit Übungsaufgaben auf deinen eigenen Rechner.
 
 ```bash
@@ -32,15 +30,13 @@ docker pull codecentric/codecentric.ai-docker
 
 6. Starte den Server auf deinem Rechner
 
-  - Auf Mac oder Linux
-
-Den Jupyter Server starten und die Übungsaufgaben und Daten in den Container mounten kannst du mit Mac und Linux so:
+  - **Auf Mac oder Linux:**
 
 ```bash
 # Jupyter Server starten und Übungsaufgaben in Container mounten
 docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:/data codecentric.ai-docker
 
-# Daten laden
+# Aktuellen Stand der Datensätze laden
 ./run.sh
 ```
 
