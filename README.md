@@ -8,12 +8,13 @@ https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkOD
 ## Anleitung für den Praxisteil des Bootcamps
 Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben lokal ausführen.
 
-1. Setze eine Entwicklungsumgebung auf.
-Um die Übungsaufgaben auszuführen, brauchst du eine Entwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine
+
+### Voraussetzungen
+
+- Um die Übungsaufgaben auszuführen, brauchst du eine **Entwicklungsumgebung**. In unserem Kurs findest du im Modul 2 eine
 genaue Anleitung, wie man dies am besten einrichtet.
 
-2. Installiere Git
-Git benötigst du, um daraufhin den Code aus unserem Repository klonen zu können: https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren
+- **Git** benötigst du, um daraufhin den Code aus unserem Repository klonen zu können: https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren
 
 3. Installiere Docker
 Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du Docker (https://docs.docker.com/install/).
