@@ -2,7 +2,8 @@
 
 Hier findest Du die Kursinhalte zum codecentric.AI Bootcamp (https://bootcamp.codecentric.ai).
 
-## Anleitung, um deine Übungsaufgaben lokal lösen zu können
+## Anleitung für den Praxisteil des Bootcamps
+Nach den folgenden Schritten kannst du den Code unserer Übungsaufgaben lokal ausführen.
 
 1. Setze eine Entwicklungsumgebung auf.
 Um die Übungsaufgaben auszuführen, brauchst du eine Entwicklungsumgebung. In unserem Kurs findest du im Modul 2 eine
@@ -14,7 +15,7 @@ Git benötigst du, um daraufhin den Code aus unserem Repository klonen zu könne
 3. Installiere Docker
 Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du Docker (https://docs.docker.com/install/).
 
-(Führe folgende Befehle in der Kommandozeile aus)
+  (Führe folgende Befehle in der Kommandozeile aus)
 
 4. Klone den Code mit Übungsaufgaben auf deinen eigenen Rechner.
 
