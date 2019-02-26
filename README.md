@@ -5,34 +5,34 @@ In diesem Repository findest Du die Praxisübungen des codecentric.AI Bootcamps:
 **Wenn du Hilfe benötigst, chatte mit uns in unserer Slack Community:
 https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkODg2YzIwYjdhZGI4YmU3YWNhMDc4NmIwZmFmMmJiN2JiODM1M2EyYTQxZGNhZjQwOGIwMTRlMDlhYzg1YTI**
 
+[This link](http://example.com/ "Title") has a title attribute.
+
 ## Anleitung für den Praxisteil des Bootcamps
 Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben lokal ausführen.
 
 
 ### Voraussetzungen
 
-- Um die Übungsaufgaben auszuführen, brauchst du eine **Entwicklungsumgebung**. In unserem Kurs findest du im Modul 2 eine
-genaue Anleitung, wie man dies am besten einrichtet.
-
 - **Git** benötigst du, um daraufhin den Code aus unserem Repository klonen zu können: https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren
 
-3. Installiere Docker
-Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du Docker (https://docs.docker.com/install/).
+- Um die Jupyter Notebooks lokal auf Deinem Rechner laufen zu lassen benötigst du **Docker**: https://docs.docker.com/install/
 
-4. Klone den Code mit Übungsaufgaben auf deinen eigenen Rechner.
+### Umgebung lokal aufsetzen
+
+1. Klone den Code mit Übungsaufgaben auf deinen eigenen Rechner.
 
 ```bash
 git clone https://github.com/codecentric/codecentric.AI-bootcamp
 cd codecentric.AI-bootcamp
 ```
 
-5. Installiere das Docker-Image.
+2. Installiere das Docker-Image.
 
 ```bash
 docker pull codecentric/codecentric.ai-docker
 ```
 
-6. Starte den Server auf deinem Rechner
+3. Starte den Server auf deinem Rechner
 
   - **Auf Mac oder Linux:**
 
@@ -52,7 +52,7 @@ docker run -p 8888:8888 -v %cd%/data:/data -v %cd%/notebooks:/notebooks codecent
 
 Falls der Pfad mit `%cd%` nicht erkannt wird, verwende den absoluten Pfadnamen, zum Beispiel:
 
-7. Installation testen & loslegen
+4. Installation testen & loslegen
 
 Rufe `http://localhost:8888/` in deinem Browser auf.
 
