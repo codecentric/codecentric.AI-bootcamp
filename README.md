@@ -1,19 +1,18 @@
 ## codecentric.AI Bootcamp
 
-In diesem Repository findest Du die Praxisübungen des codecentric.AI Bootcamps: https://bootcamp.codecentric.ai
+In diesem Repository findest Du die Praxisübungen des [codecentric.AI Bootcamps](https://bootcamp.codecentric.ai).
 
-Wenn du Hilfe benötigst, chatte mit uns in unserer [Slack Community](https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkODg2YzIwYjdhZGI4YmU3YWNhMDc4NmIwZmFmMmJiN2JiODM1M2EyYTQxZGNhZjQwOGIwMTRlMDlhYzg1YTI).
+Um den Code der Praxisübungen auf deinem Rechner ausführen zu können, musst du zuerst eine Entwicklungsumgebung aufsetzen. Hierfür durchlaufe einfach Schritt für Schritt die Anleitung hier unten.
 
-## Anleitung für den Praxisteil des Bootcamps
-Mit den folgenden Schritten kannst du den Code unserer Übungsaufgaben ausführen.
+Falls du Hilfe benötigen solltest, chatte mit uns in unserer [Slack Community](https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkODg2YzIwYjdhZGI4YmU3YWNhMDc4NmIwZmFmMmJiN2JiODM1M2EyYTQxZGNhZjQwOGIwMTRlMDlhYzg1YTI). Wir freuen uns auch sehr über Feedback zu deinen Erfahrungen.
 
-### Voraussetzungen
+Voraussetzungen:
 
-- **Git**: [Anleitung zur Installation von GIT](https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren)
+- **Git** [(installieren)](https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren)
 
-- **Docker**: [Anleitung zur Installation von Docker](https://docs.docker.com/install/)
+- **Docker** [(installieren)](https://docs.docker.com/install/)
 
-### Umgebung lokal aufsetzen
+### Anleitung zur Einrichtung einer Entwicklungsumgebung (lokal)
 
 1. Klone den Code mit Übungsaufgaben auf deinen eigenen Rechner.
 
@@ -45,13 +44,13 @@ docker run -p 8888:8888 -v %cd%/data:/data -v %cd%/notebooks:/notebooks codecent
 
 Falls der Pfad mit `%cd%` nicht erkannt wird, verwende den absoluten Pfadnamen.
 
-4. Installation testen & loslegen
+4. Loslegen
 
 Rufe `http://localhost:8888/` in deinem Browser auf.
 
 Du siehst keine Übungsaufgaben?
 Vermutlich wurde nicht der richtige Pfad der Übungsaufgaben zum Container hinzugefügt. Achte darauf, dass du dich im Terminal (bzw. in der Shell) zuerst zum Ordner des Bootcamps wechselst, bevor du die Befehle ausführst.
 
-## Übungsaufgaben in der Cloud ausführen
+## Anleitung zur Einrichtung einer Entwicklungsumgebung (Cloud)
 
 Für manche Übungsaufgaben empfiehlt es sich, geeignete Grafikkarte zu verwenden, um ein Training in überschaubarer Zeit abzuschließen. Falls die Grafikkarte deines Rechners dafür nicht ausreicht, kannst du die Übungsaufgaben in der Cloud ausführen. Wir verwenden hierfür Amazon Web Services (AWS). Im Kurs zeigen wir Dir, wie du einen AWS EC2 Instanz einrichten kannst, um dort unser Docker-Image einrichten zu können.
