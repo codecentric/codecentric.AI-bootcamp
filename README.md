@@ -4,7 +4,7 @@ In diesem Repository findest Du die Praxisübungen des [codecentric.AI Bootcamps
 
 Um den Code der Praxisübungen auf deinem Rechner ausführen zu können, musst du zuerst eine Entwicklungsumgebung aufsetzen. Hierfür durchlaufe einfach Schritt für Schritt die Anleitung hier unten.
 
-Falls du Hilfe benötigen solltest, chatte mit uns in unserer [Slack Community](https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkODg2YzIwYjdhZGI4YmU3YWNhMDc4NmIwZmFmMmJiN2JiODM1M2EyYTQxZGNhZjQwOGIwMTRlMDlhYzg1YTI). Wir freuen uns auch sehr über Feedback zu deinen Erfahrungen.
+Falls du Hilfe benötigen solltest, chatte mit uns in unserer [Slack Community](https://join.slack.com/t/cc-ai-bootcamp/shared_invite/enQtNTQyMTk0MzM2OTMxLTNkODg2YzIwYjdhZGI4YmU3YWNhMDc4NmIwZmFmMmJiN2JiODM1M2EyYTQxZGNhZjQwOGIwMTRlMDlhYzg1YTI). Wir freuen uns auch über Feedback zu deinen Erfahrungen.
 
 Voraussetzungen:
 
@@ -31,13 +31,13 @@ Die Entwicklungsumgebung ist jetzt eingerichtet. Du kannst sie nun jederzeit wie
 
 Der folgende Befehl muss aus dem Ordner *codecentric.AI-bootcamp* heraus gestartet werden.
 
-  - *Mac / Linux:*
+  - Mac / Linux:
 
 ```bash
 # Starte Entwicklungsumgebung
 sh run.sh
 ```
-  - *Windows:*
+  - Windows:
 
 ```bash
 # Starte Entwicklungsumgebung 
@@ -45,6 +45,8 @@ run
 ```
 
 Los geht's! Rufe [http://localhost:8888/](http://localhost:8888/) in deinem Browser auf.
+
+---
 
 #### Problembehebung
 * Du siehst keine Übungsaufgaben?
