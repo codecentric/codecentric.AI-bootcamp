@@ -12,7 +12,7 @@ Voraussetzungen:
 
 - **Docker** [installieren](https://docs.docker.com/install/)
 
-### Einrichtung der Entwicklungsumgebung (lokal)
+### Entwicklungsumgebung einrichten (lokal)
 
 ```bash
 #Klone den Code mit Übungsaufgaben auf deinen eigenen Rechner
@@ -48,8 +48,9 @@ Los geht's! Rufe [http://localhost:8888/](http://localhost:8888/) in deinem Brow
 
 #### Problembehebung
 * Du siehst keine Übungsaufgaben?
-  Vermutlich wurde nicht der richtige Pfad der Übungsaufgaben zum Container hinzugefügt. Achte darauf, dass du dich im Terminal (bzw. in der Shell) zuerst zum Ordner des Bootcamps wechselst, bevor du die Befehle ausführst.
 
-### Einrichtung der Entwicklungsumgebung (Cloud)
+   Vermutlich wurde nicht der richtige Pfad der Übungsaufgaben zum Container hinzugefügt. Achte darauf, dass du dich im    Terminal (bzw. in der Shell) zuerst zum Ordner des Bootcamps wechselst, bevor du die Befehle ausführst.
+
+### Entwicklungsumgebung einrichten (Cloud)
 
 Für manche Übungsaufgaben empfiehlt es sich, geeignete Grafikkarte zu verwenden, um ein Training in überschaubarer Zeit abzuschließen. Falls die Grafikkarte deines Rechners dafür nicht ausreicht, kannst du die Übungsaufgaben in der Cloud ausführen. Wir verwenden hierfür Amazon Web Services (AWS). Im Kurs zeigen wir Dir, wie du einen AWS EC2 Instanz einrichten kannst, um dort unser Docker-Image einrichten zu können.
