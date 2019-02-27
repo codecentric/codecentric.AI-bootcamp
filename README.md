@@ -29,27 +29,26 @@ Die Entwicklungsumgebung ist jetzt eingerichtet. Du kannst sie nun jederzeit wie
 
 ### Entwicklungsumgebung starten
 
-1. Starte den Server auf deinem Rechner
+Der folgende Befehl muss aus dem Ordner "codecentric.AI-bootcamp" heraus gestartet werden.
 
   - **Auf Mac oder Linux:**
 
 ```bash
-# Server starten
+# Entwicklungsumgebung starten
 sh run.sh
 ```
   - **Auf Windows:**
 
 ```bash
-# Server starten
+# Entwicklungsumgebung starten 
 run
 ```
 
-2. Los geht's!
+Los geht's! Rufe [http://localhost:8888/](http://localhost:8888/) in deinem Browser auf.
 
-Rufe `http://localhost:8888/` in deinem Browser auf.
-
-Du siehst keine Übungsaufgaben?
-Vermutlich wurde nicht der richtige Pfad der Übungsaufgaben zum Container hinzugefügt. Achte darauf, dass du dich im Terminal (bzw. in der Shell) zuerst zum Ordner des Bootcamps wechselst, bevor du die Befehle ausführst.
+#### Problembehebung
+* Du siehst keine Übungsaufgaben?
+  Vermutlich wurde nicht der richtige Pfad der Übungsaufgaben zum Container hinzugefügt. Achte darauf, dass du dich im Terminal (bzw. in der Shell) zuerst zum Ordner des Bootcamps wechselst, bevor du die Befehle ausführst.
 
 ### Einrichtung der Entwicklungsumgebung (Cloud)
 
