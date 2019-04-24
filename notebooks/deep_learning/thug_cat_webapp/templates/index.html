@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Thug Cat WebApp Demo</h1>
+
+<div class="box">
+
+    <h2>Lade ein Katzenbild hoch:</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        Wähle ein Bild aus:
+        <input type="file" name="file">
+        <input type="submit" value="Bild hochladen">
+    </form>
+
+    <h2>Oder gib hier eine URL von einem Katzenbild ein:</h2>
+    <form action="/process-url" method="get">
+        <input type="url" name="url" width="200">
+        <input type="submit" value="Bild laden">
+    </form>
+</div>
+{% endblock %}

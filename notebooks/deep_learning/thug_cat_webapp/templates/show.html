@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Bild anzeigen</h1>
+
+<div class="box">
+
+    <h2>Landmarks</h2>
+    <p>{{landmarks}}</p>
+
+    <h2>Bild</h2>
+    <p><img src="data:image/png;base64, {{img}}"/></p>
+</div>
+{% endblock %}
