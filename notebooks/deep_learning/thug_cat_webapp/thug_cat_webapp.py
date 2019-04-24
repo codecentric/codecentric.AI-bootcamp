@@ -44,7 +44,7 @@ def render_image_result(request, img_bytes):
     Bekommt ein Bild als Bytes und macht eine prediction mit dem thug cat Modell.
     Dann zeigt es das Bild und die Landmarks auf einer HTML Seite an.
     """
-    transform = CatTransformer("glasses.png", "../")
+    transform = CatTransformer("glasses.png", "/data/cats/")
     img = open_image(BytesIO(img_bytes))
     orig_img = PIL.Image.open(BytesIO(img_bytes))
 
