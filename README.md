@@ -34,14 +34,17 @@ Der folgende Befehl muss aus dem Ordner *codecentric.AI-bootcamp* heraus gestart
   - Unter Mac / Linux:
 
 ```bash
-# Starte Entwicklungsumgebung
+# Starte die Entwicklungsumgebung
 sh run.sh
 ```
   - Unter Windows:
 
 ```bash
-# Starte Entwicklungsumgebung 
+# Starte die Entwicklungsumgebung mit Command Prompt (cmd)
 run
+
+# oder mit PowerShell
+.\run.bat
 ```
 
 Los geht's! Rufe [http://localhost:8888/](http://localhost:8888/) in deinem Browser auf.
