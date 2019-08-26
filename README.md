@@ -58,6 +58,7 @@ git pull
 # Starte die Entwicklungsumgebung. Ersetze den Beispielpfad mit deinem tatsächlichen Pfad. Anstatt der klassischen Notation deiner Drive mit C:, D: etc., verwende //c/ bzw. //d/, da Docker Toolbox Pfade mit Doppelpunkten nicht korrekt erfasst.
 
 docker run -p 127.0.0.1:8888:8888 -v //c/Pfad/zu/Verzeichnis/bootcamp/codecentric.AI-bootcamp/notebooks:/notebooks -v //c/Pfad/zu/Verzeichnis/bootcamp/codecentric.AI-bootcamp/data:/data codecentric/codecentric.ai-docker
+```
 
 Los geht's! Rufe [http://localhost:8888/](http://localhost:8888/) in deinem Browser auf.
 
