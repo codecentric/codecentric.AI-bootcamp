@@ -11,7 +11,9 @@ Voraussetzungen:
 - **Git** [installieren](https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren)
 
 - **Docker**
+
 -- für macOS / Windows 10 [installieren](https://docs.docker.com/install/)
+
 -- für Windows 7 / 8 (Docker Toolbox) [installieren](https://docs.docker.com/toolbox/toolbox_install_windows/)
 
 ### Entwicklungsumgebung einrichten (lokal)
