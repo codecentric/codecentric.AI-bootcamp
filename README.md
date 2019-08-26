@@ -12,9 +12,9 @@ Voraussetzungen:
 
 - **Docker**
 
--- für macOS / Windows 10 [installieren](https://docs.docker.com/install/)
+  - für macOS / Windows 10 [installieren](https://docs.docker.com/install/)
 
--- für Windows 7 / 8 (Docker Toolbox) [installieren](https://docs.docker.com/toolbox/toolbox_install_windows/)
+  - für Windows 7 / 8 (Docker Toolbox) [installieren](https://docs.docker.com/toolbox/toolbox_install_windows/)
 
 ### Entwicklungsumgebung einrichten (lokal)
 
